@@ -1,0 +1,41 @@
+{
+	"database": {
+		"mysql": {
+			"driver": "mysql",
+			"host": "localhost",
+			"user": "root",
+			"password": "",
+			"db_name": "go-model",
+			"port": 3306,
+			"pool": {
+				"maxOpenConns": 100,
+				"maxIdleConns": 10,
+				"maxLifetime": 300
+			}
+		},
+		"mongo": {
+			"db_name": "go-model",
+			"host": "localhost:27017"
+		},
+		"redis": {
+			"driver": "redis",
+			"host": "localhost",
+			"password": "",
+			"db_number": 0,
+			"port": 6379
+		},
+		"amqp": {
+			"api_url": "http://localhost:15672",
+			"host": "localhost",
+			"port": 5672,
+			"user": "guest",
+			"password": "guest",
+			"reconnect_retry": 3,
+			"reconnect_interval": 2,
+			"debug": true
+		}
+	},
+	"logdir": "log",
+	"log_identifier": "go-model",
+	"log_max_age": 15
+}
