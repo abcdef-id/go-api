@@ -1,0 +1,12 @@
+.DS_Store
+/.vscode
+/.idea
+/gin-bin
+/.scannerwork/
+/coverage.out
+/report.json
+/log
+Dockerfile
+
+# For Development Testing Only
+test.go
